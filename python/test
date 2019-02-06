@@ -1,0 +1,10 @@
+python3 dh-alice1.py bob.txt secret.txt
+python3 dh-bob.py bob.txt response.txt
+python3 dh-alice2.py response.txt secret.txt
+
+
+python elg-keygen.py elg-pk-file.txt elg-sk-file.txt 
+python elg-encrypt.py "hello" elg-pk-file.txt elg-ct-file.txt
+python elg-decrypt.py elg-ct-file.txt elg-sk-file.txt
+
+python dl-efficient.py example.txt

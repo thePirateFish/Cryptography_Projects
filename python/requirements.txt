@@ -1,0 +1,9 @@
+asn1crypto==0.24.0
+cffi==1.11.5
+cryptography==2.4.1
+idna==2.7
+numpy==1.15.4
+pycparser==2.19
+python-dateutil==2.7.5
+pytz==2018.7
+six==1.11.0
